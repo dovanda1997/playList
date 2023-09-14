@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #170f23;
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.m-t-20{
+    margin-top: 20px;
+}
+.grid{
+    display: grid;
+    grid-template: auto / 30% 70% ;
+    height: 700px;
+}
+.music-infomation{
+    background-color:#34224f ;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+h4{
+    font-size: 24px;
+}
+.music-title{
+    font-size: 20px;
+    
+}
+.music-name{
+    font-size: 16px;
+    color: #ffffff80;
+}
+.music-image img{
+    width: 90%;
+}
+.m-b-15{
+    margin-bottom: 15px;
+}
+table{
+    width: 100%;
+}
+tr td{
+    padding: 20px;
+    font-size: 20px;
+}
+.music-content{
+    background-color: #0f0916;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.img-info img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.img-title{
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+.tit-img{
+    display: flex;
+    align-items: center;
+}
+button{
+    font-size: 24px;
+    padding: 20px;
+    color: white;
+    background-color: #0f0916;
+    border: none;
+    outline: 0;
+}
+.currentAudio input{
+    width: 500px;
+    height: 3px;
+}
+.VolumeSong input{
+    margin-right: 30px;
+}
+
+.img-thumb{
+    width: 100px;
+    height: 100px;
+   margin-left: 30px;
+   border-radius: 50%;
+}
+
